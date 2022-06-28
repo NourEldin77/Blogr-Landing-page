@@ -1,0 +1,33 @@
+
+/* 
+*   
+*
+*
+*
+*
+*/
+:root{
+    --prime-red: hsl(356, 100%, 66%);
+    --prime-light-red: hsl(355, 100%, 74%);
+    --prime-dark-blue:  hsl(208, 49%, 24%);
+    /**-----------------------------------**/
+    --nature-gray-blue:hsl(240, 2%, 79%);
+    --nature-very_gray-blue:hsl(207, 13%, 34%);
+    --nature--dark_blue: hsl(240, 10%, 16%);
+    /**--------------------------------------**/
+    --linear-red:linear-gradient(140deg , hsl(13, 100%, 72%),hsl(353, 100%, 62%)), no-repeat;
+    --linear-blue:linear-gradient(140deg,hsl(237, 17%, 21%) , hsl(237, 23%, 32%)), no-repeat;
+}
+
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+
+
+
