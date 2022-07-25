@@ -244,8 +244,14 @@ li.menu__topic{
     background-color: #fff;
     color:var(--prime-red);
 }
-/*---- Mobile-Global-Sections ----*/
-
+/*----  Mobile-Global-Sections ----*/
+section{
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    color: var(--prime-dark-blue);
+}
 article.sec_article{
     font-size:20px ;
     display:flex;
@@ -275,15 +281,10 @@ h3{
 /*--- Section one ---*/
 
 section.sec_one {
-    font-family: 'Overpass', sans-serif;
-    display:flex;
-    justify-content: center;
-    flex-direction:column;
-    align-items: center;
     margin: 3em 0.1em 14em;
     padding: 1em 0.1em;
-    color: var(--prime-dark-blue);
 }
+
 
 .secOne__flex_container{
     display:flex;
@@ -306,11 +307,6 @@ section.sec_one {
 /*--- Section two ---*/
 
 .sec_two{
-    width: 100%;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
     background:url(/img/bg-pattern-circles.svg)center bottom 425% no-repeat ,var(--linear-blue) no-repeat    ;
     background-size:150%, 100%;
     border-radius:0 100px 0;
@@ -330,6 +326,16 @@ div.secTwo_img>img{
 }
 .sec_two>article.sec_article>p{
     font-size: 20px;
+}
+
+/*--- Section Three ---*/
+
+.sec_thr{
+    margin: 3em 0.1em 2em;
+}
+
+.secThr_img>img{
+    object-fit: cover; 
 }
 
 /*  */
