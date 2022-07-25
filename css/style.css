@@ -244,20 +244,22 @@ li.menu__topic{
     background-color: #fff;
     color:var(--prime-red);
 }
-/*--- Section one ---*/
+/*---- Mobile-Global-Sections ----*/
 
-section.sec_one {
-    font-family: 'Overpass', sans-serif;
+article.sec_article{
+    font-size:20px ;
     display:flex;
+    flex-direction: column;
     justify-content: center;
-    flex-direction:column;
     align-items: center;
-    margin: 3em 0.1em;
-    padding: 1em 0.1em;
-    color: var(--prime-dark-blue);
-    
+    gap:1.5em;
+    margin: 1em 0.5em;
+    padding: 1em 0.8em;
+    text-align: center;
 }
-
+article.sec_article>p{
+    font-family: 'Overpass', sans-serif;
+}
 h2{
     font-family: 'Overpass', sans-serif;
     font-size:1.7em;
@@ -269,29 +271,32 @@ h3{
     font-family: 'Overpass', sans-serif;
     font-size: 1.5em;
 }
+
+/*--- Section one ---*/
+
+section.sec_one {
+    font-family: 'Overpass', sans-serif;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    margin: 3em 0.1em 14em;
+    padding: 1em 0.1em;
+    color: var(--prime-dark-blue);
+}
+
 .secOne__flex_container{
     display:flex;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    
-}
-article.sec_article{
-    font-size:20px ;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap:2em;
-    margin: 1em 0.5em;
-    padding: 1em 0.8em;
-    text-align: center;
-}
-article.sec_article>p{
-    font-family: 'Overpass', sans-serif;
 }
 
-.sec_img_par>img{
+.secOne__flex_container>.sec_article>p{
+    margin-bottom: 0.6em;
+}
+
+.secOne_img>img{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -300,4 +305,31 @@ article.sec_article>p{
 
 /*--- Section two ---*/
 
+.sec_two{
+    width: 100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background:url(/img/bg-pattern-circles.svg)center bottom 425% no-repeat ,var(--linear-blue) no-repeat    ;
+    background-size:150%, 100%;
+    border-radius:0 100px 0;
+}
+div.secTwo_img{ 
+    max-height: 9em;
+}
+div.secTwo_img>img{
+    width: 100%;
+    position: relative;
+    top: -11.5em;
+}
 
+.sec_two>article.sec_article{
+    margin:3em 0 5em; 
+    color: #fff;
+}
+.sec_two>article.sec_article>p{
+    font-size: 20px;
+}
+
+/*  */
